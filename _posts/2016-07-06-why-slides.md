@@ -14,7 +14,6 @@ slides:
  - title: "Medios Guiados"
    slide-data: "Este tipo de medio utiliza cables físicos para transmitir datos. Incluye cables de par trenzado, coaxial y fibra óptica, los cuales se usan para diferentes distancias y tasas de transmisión."
    background: "#2ecc71"
-   note: "Imagen sugerida: Representación de un cable (tamaño 200x150px) en la esquina inferior izquierda."
    image: width="178" height="238" "https://github.com/AndyRenata/telecom/blob/master/images/descargar.jpeg?raw=true" 
 
  - title: "Cables de Par Trenzado"
