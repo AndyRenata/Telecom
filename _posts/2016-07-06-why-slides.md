@@ -10,6 +10,7 @@ slides:
    slide-data: "Los medios de transmisión son fundamentales en la comunicación de datos. Se dividen en dos tipos: <strong>medios guiados</strong> (con cables) e <strong>medios no guiados</strong> (inalámbricos), cada uno adecuado para aplicaciones específicas."
    background: "#2980b9"
    note: "Imagen sugerida: Icono de red (tamaño 100x100px) en la esquina superior derecha."
+   image: "/images/icono-red.png" https://www.bing.com/images/search?view=detailV2&ccid=w1mjIdQY&id=AD292A03F940046EF2D4F02419A1F30685CA5EAD&thid=OIP.w1mjIdQY8Ze9wHfjzC_H7QHaHa&mediaurl=https%3a%2f%2fthumbs.dreamstime.com%2fb%2fvector-del-icono-de-la-red-concepto-137293436.jpg&cdnurl=https%3a%2f%2fth.bing.com%2fth%2fid%2fR.c359a321d418f197bdc077e3cc2fc7ed%3frik%3drV7KhQbzoRkk8A%26pid%3dImgRaw%26r%3d0&exph=800&expw=800&q=icono+de+la+red&simid=607989661485528088&FORM=IRPRST&ck=0F365845AB1442CDEDCD064F33502591&selectedIndex=0&itb=0
 
  - title: "Medios Guiados"
    slide-data: "Este tipo de medio utiliza cables físicos para transmitir datos. Incluye cables de par trenzado, coaxial y fibra óptica, los cuales se usan para diferentes distancias y tasas de transmisión."
