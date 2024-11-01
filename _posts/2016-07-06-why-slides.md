@@ -1,48 +1,58 @@
 ---
-title: "Capítulo 10: Detección y Corrección de Errores en Comunicaciones de Datos y Redes"
+title: "Capítulo 10: Identificación y Reparación de Errores en Transmisiones de Datos y Redes"
 layout: "post"
-permalink: "/deteccion-correccion-errores/"
+permalink: "/identificacion-reparacion-errores/"
 background: "#0a5"
 
 slides:
- - title: "<h1 style='font-size: 50px; color: black;'>10.1 INTRODUCCIÓN</h1>"
-   slide-data: "<p style='color: black;'>La detección y corrección de errores son procesos críticos en las comunicaciones de datos. Los errores pueden producirse debido a ruido, interferencias o problemas de hardware, afectando la precisión de los datos. Los sistemas modernos de comunicación implementan diversas técnicas para minimizar y corregir estos errores, permitiendo una transmisión confiable de la información.</p>"
-   background: "#FFFFFF"
+ - title: "<h1 style='font-size: 60px; color: #003366;'>10.1 INTRODUCCIÓN</h1>"
+   slide-data: "<p style='color: #333333;'>La <span style='color: #FF5733; font-weight: bold;'>identificación</span> y <span style='color: #FF5733; font-weight: bold;'>reparación</span> de errores son componentes cruciales en la transmisión de datos. Estos errores pueden ocurrir debido a <span style='color: #FF5733; font-weight: bold;'>interferencias</span>, ruido o fallos en el hardware, comprometiendo la precisión de la información. Los sistemas de comunicación actuales implementan diversas técnicas para mitigar y corregir estos errores, asegurando así una transmisión fiable de los datos.</p>"
+   notes: "Entiendo que la detección y corrección de errores son vitales para mantener la integridad de los datos durante su transmisión. Me parece fascinante cómo diferentes factores pueden introducir errores y cómo hay sistemas diseñados para detectarlos y corregirlos."
+   background: "#F9F9F9"
 
- - title: "<h1 style='font-size: 50px; color: black;'>10.2 CODIFICACIÓN DE BLOQUES</h1>"
-   slide-data: "<p style='color: black;'>La codificación de bloques divide los datos en bloques de tamaño fijo, aplicando un proceso de codificación que facilita la detección y corrección de errores en cada bloque. <strong>Ejemplo</strong>: Al transmitir datos binarios en un sistema de comunicación, los bloques de bits pueden ser organizados en grupos de 7 bits con un bit de paridad agregado. Si un bit cambia, la paridad permitirá detectar el error.</p>"
-   background: "#FFFFFF"
+ - title: "<h1 style='font-size: 60px; color: #003366;'>10.2 CODIFICACIÓN EN BLOQUES</h1>"
+   slide-data: "<p style='color: #333333;'>La <span style='color: #FF5733; font-weight: bold;'>codificación en bloques</span> implica dividir los datos en segmentos de longitud fija, aplicando un método de codificación que facilita la identificación y corrección de errores en cada segmento. <strong>Ejemplo</strong>: Al transmitir datos binarios a través de un sistema de comunicación, los segmentos de bits pueden organizarse en grupos de 8 bits con un <span style='color: #FF5733; font-weight: bold;'>bit de paridad</span> añadido. Si un bit se altera, la paridad permite detectar el error con facilidad.</p>"
+   notes: "La codificación en bloques me parece una estrategia efectiva, ya que permite manejar los datos en partes más pequeñas y manejables. La idea de utilizar un bit de paridad es interesante porque es una solución simple pero efectiva para detectar errores en la transmisión."
+   background: "#E6F2FF"
 
- - title: "<h1 style='font-size: 50px;'>10.3 CÓDIGOS DE BLOQUES LINEALES</h1>"
-   slide-data: "Los códigos de bloques lineales son una forma de codificación de bloques en la que los datos se organizan en estructuras algebraicas para simplificar la detección y corrección de errores. <strong>Ejemplo</strong>: El Código de Hamming (7,4) permite corregir un solo bit erróneo en cada bloque de datos de 7 bits, ideal para aplicaciones que requieren un nivel básico de corrección de errores."
-   background: "#800080"
+ - title: "<h1 style='font-size: 60px; color: #003366;'>10.3 CÓDIGOS DE BLOQUES LINEALES</h1>"
+   slide-data: "<p style='color: #333333;'>Los <span style='color: #FF5733; font-weight: bold;'>códigos de bloques lineales</span> son un tipo de codificación donde los datos se estructuran en formas algebraicas que simplifican la identificación y reparación de errores. <strong>Ejemplo</strong>: El <span style='color: #FF5733; font-weight: bold;'>Código de Hamming</span> (7,4) es capaz de corregir un solo bit erróneo en cada bloque de 7 bits, lo que resulta ideal para aplicaciones que requieren un nivel básico de corrección de errores, como en la memoria de computadoras.</p>"
+   notes: "Me parece muy útil que los códigos de bloques lineales puedan corregir errores de manera automática. El Código de Hamming es un gran ejemplo de cómo se pueden aplicar conceptos matemáticos para resolver problemas prácticos en la transmisión de datos."
+   background: "#D9CFF7"
 
- - title: "<h1 style='font-size: 50px;'>10.4 CÓDIGOS CÍCLICOS</h1>"
-   slide-data: "Los códigos cíclicos son códigos de bloques lineales en los que las combinaciones de bits se representan como polinomios. Los errores se detectan mediante la divisibilidad del polinomio resultante. <strong>Ejemplo</strong>: El CRC (Cyclic Redundancy Check) es un tipo de código cíclico que detecta cambios en bloques de datos mediante un polinomio generador. Es ampliamente utilizado en redes Ethernet y almacenamiento en disco."
-   background: "#800080"
+ - title: "<h1 style='font-size: 60px; color: #003366;'>10.4 CÓDIGOS CÍCLICOS</h1>"
+   slide-data: "<p style='color: #333333;'>Los <span style='color: #FF5733; font-weight: bold;'>códigos cíclicos</span> son una clase de códigos de bloques lineales en los que las combinaciones de bits se representan como polinomios. Los errores se detectan a través de la divisibilidad del polinomio resultante. <strong>Ejemplo</strong>: El <span style='color: #FF5733; font-weight: bold;'>CRC</span> (Comprobación de Redundancia Cíclica) es un código cíclico que verifica cambios en bloques de datos usando un polinomio generador. Es ampliamente utilizado en redes Ethernet y en sistemas de almacenamiento, como discos duros.</p>"
+   notes: "Lo que más me impresiona de los códigos cíclicos es su versatilidad y cómo utilizan la matemática para asegurar la integridad de los datos. El CRC es especialmente interesante, ya que es una técnica eficiente y muy utilizada en el mundo real."
+   background: "#D1F5D3"
 
- - title: "<h1 style='font-size: 50px;'>10.5 SUMA DE VERIFICACIÓN</h1>"
-   slide-data: "La suma de verificación consiste en sumar los bits de los datos y enviar el resultado al receptor. Este valor se utiliza para verificar la integridad de los datos. <strong>Ejemplo</strong>: En redes IP, cada paquete de datos incluye un campo de suma de verificación para que el receptor verifique si los datos llegaron correctamente."
-   background: "#800080"
+ - title: "<h1 style='font-size: 60px; color: #003366;'>10.5 SUMA DE VERIFICACIÓN</h1>"
+   slide-data: "<p style='color: #333333;'>La <span style='color: #FF5733; font-weight: bold;'>suma de verificación</span> consiste en agregar los bits de los datos y enviar este resultado al receptor. Este valor se utiliza para confirmar la integridad de la información recibida. <strong>Ejemplo</strong>: En las redes IP, cada paquete de datos incluye un campo de suma de verificación que permite al receptor comprobar si los datos llegaron correctamente y sin alteraciones.</p>"
+   notes: "La suma de verificación es una forma sencilla pero efectiva de comprobar si los datos fueron alterados durante la transmisión. Es interesante ver cómo métodos tan simples pueden ser tan potentes para mantener la integridad de los datos."
+   background: "#FFE5B4"
 
- - title: "<h1 style='font-size: 50px;'>10.6 LECTURA RECOMENDADA</h1>"
-   slide-data: "Para profundizar en los temas de detección y corrección de errores, se recomienda consultar libros como 'Data Communications and Networking' de Behrouz Forouzan y 'Error Control Coding' de Shu Lin y Daniel Costello. Estas obras proporcionan una visión detallada de los algoritmos, métodos y aplicaciones en sistemas de comunicación y redes."
-   background: "#0000FF"
+ - title: "<h1 style='font-size: 60px; color: #003366;'>10.6 LECTURA RECOMENDADA</h1>"
+   slide-data: "<p style='color: #333333;'>Para profundizar en los conceptos de <span style='color: #FF5733; font-weight: bold;'>identificación y reparación de errores</span>, se sugiere revisar obras como '<span style='color: #FF5733; font-weight: bold;'>Data Communications and Networking</span>' de Behrouz Forouzan y '<span style='color: #FF5733; font-weight: bold;'>Error Control Coding</span>' de Shu Lin y Daniel Costello. Estos libros ofrecen una visión exhaustiva de los algoritmos, métodos y aplicaciones en sistemas de comunicación y redes.</p>"
+   notes: "Me gusta que haya recomendaciones de libros para profundizar en el tema. Siempre es bueno contar con recursos adicionales que nos ayuden a entender mejor los conceptos técnicos."
+   background: "#B3E5FC"
 
- - title: "<h1 style='font-size: 50px;'>10.7 TÉRMINOS CLAVE</h1>"
-   slide-data: "<ul><li><strong>CRC:</strong> Checksum de Redundancia Cíclica, una técnica de detección de errores que utiliza un polinomio generador.</li><li><strong>Hamming:</strong> Código para corrección de errores, especialmente útil en sistemas de almacenamiento.</li><li><strong>Bit de Paridad:</strong> Bit agregado para verificar la integridad de datos.</li><li><strong>Checksum:</strong> Suma de control para verificar errores en bloques de datos.</li><li><strong>Código de Convolución:</strong> Técnica de corrección de errores en tiempo real utilizada en telecomunicaciones.</li></ul>"
-   background: "#0000FF"
+ - title: "<h1 style='font-size: 60px; color: #003366;'>10.7 TÉRMINOS CLAVE</h1>"
+   slide-data: "<ul style='color: #333333;'><li><strong><span style='color: #FF5733;'>CRC:</span></strong> Comprobación de Redundancia Cíclica, una técnica de detección de errores que se basa en un polinomio generador.</li><li><strong><span style='color: #FF5733;'>Hamming:</span></strong> Código para la corrección de errores, especialmente efectivo en sistemas de almacenamiento.</li><li><strong><span style='color: #FF5733;'>Bit de Paridad:</span></strong> Bit adicional para verificar la integridad de los datos.</li><li><strong><span style='color: #FF5733;'>Checksum:</span></strong> Suma de control utilizada para identificar errores en bloques de datos.</li><li><strong><span style='color: #FF5733;'>Código de Convolución:</span></strong> Técnica para la corrección de errores en tiempo real utilizada en telecomunicaciones.</li></ul>"
+   notes: "Estos términos clave son muy útiles para recordar los conceptos importantes que he aprendido. Cada uno juega un papel vital en la detección y corrección de errores en las comunicaciones."
+   background: "#E6F9D7"
 
- - title: "<h1 style='font-size: 50px; color: black;'>10.8 RESUMEN</h1>"
-   slide-data: "En resumen, los métodos de detección y corrección de errores son fundamentales para asegurar la integridad y confiabilidad en las comunicaciones de datos. Cada técnica tiene ventajas y aplicaciones específicas dependiendo del tipo de transmisión y el nivel de corrección requerido."
-   background: "#FFA500"
+ - title: "<h1 style='font-size: 60px; color: #003366;'>10.8 RESUMEN</h1>"
+   slide-data: "<p style='color: #333333;'>En resumen, las técnicas de identificación y reparación de errores son fundamentales para garantizar la <span style='color: #FF5733; font-weight: bold;'>integridad</span> y <span style='color: #FF5733; font-weight: bold;'>confiabilidad</span> en las transmisiones de datos. Cada técnica presenta ventajas y desventajas específicas, dependiendo del tipo de transmisión y el nivel de corrección necesario.</p>"
+   notes: "Me queda claro que mantener la integridad de los datos es crucial en las comunicaciones modernas. La elección de la técnica de corrección de errores adecuada puede marcar una gran diferencia en la eficiencia de la transmisión."
+   background: "#FFCC99"
 
- - title: "<h1 style='font-size: 50px; color: black;'>10.9 CONJUNTO DE PRÁCTICAS</h1>"
-   slide-data: "Ejercicios recomendados para aplicar los conceptos:<ul><li><strong>Práctica 1:</strong> Implementar un código de paridad en un conjunto de datos y verificar su efectividad para la detección de errores de un solo bit.</li><li><strong>Práctica 2:</strong> Crear un algoritmo CRC y probarlo en diferentes tipos de datos binarios para identificar errores en la transmisión.</li><li><strong>Práctica 3:</strong> Aplicar un código de Hamming en un sistema de transmisión para corregir errores y verificar la precisión de los datos recibidos.</li></ul>"
-   background: "#FFA500"
+ - title: "<h1 style='font-size: 60px; color: #003366;'>10.9 CONJUNTO DE PRÁCTICAS</h1>"
+   slide-data: "<p style='color: #333333;'>Ejercicios recomendados para aplicar lo aprendido:<ul><li><strong>Práctica 1:</strong> Implementar un <span style='color: #FF5733; font-weight: bold;'>código de paridad</span> en un conjunto de datos y evaluar su efectividad en la detección de errores de un solo bit.</li><li><strong>Práctica 2:</strong> Crear un algoritmo <span style='color: #FF5733; font-weight: bold;'>CRC</span> y probarlo en diferentes tipos de datos binarios para identificar errores en la transmisión.</li><li><strong>Práctica 3:</strong> Aplicar un <span style='color: #FF5733; font-weight: bold;'>código de Hamming</span> en un sistema de transmisión para corregir errores y validar la precisión de los datos recibidos.</li></ul></p>"
+   notes: "Me parece muy útil que haya ejercicios prácticos para aplicar lo que he aprendido. La práctica es una excelente manera de reforzar el conocimiento y entender mejor cómo funcionan estas técnicas en la vida real."
+   background: "#FFEB3B"
 
- - title: "<h1 style='font-size: 50px; color: white;'>Más sobre Detección y Corrección de Errores</h1>"
-   slide-data: "Consulta el libro <em>Data Telecommunications</em> para explorar en detalle cada tipo de medio de transmisión, sus características técnicas y aplicaciones prácticas en redes de comunicación actuales."
+ - title: "<h1 style='font-size: 60px; color: white;'>Más sobre Identificación y Reparación de Errores</h1>"
+   slide-data: "<p style='color: #FFFFFF;'>Consulta el libro <em>Data Telecommunications</em> para explorar en profundidad cada tipo de medio de transmisión, sus características técnicas y aplicaciones prácticas en redes de comunicación actuales.</p>"
+   notes: "Siempre es bueno conocer más sobre los recursos disponibles que pueden enriquecer mi aprendizaje sobre las telecomunicaciones."
    background: "#000000"
 
 ---
@@ -51,6 +61,7 @@ slides:
 <section data-background="{% if slide.image %}{{slide.image}}{% elsif slide.background %}{{slide.background}}{% else %}{{page.background}}{% endif %}">
         <div>{{ slide.title | safe }}</div>
         <div>{{ slide.slide-data | markdownify }}</div>
+        <div><em>Notas:</em> {{ slide.notes }}</div>
         {% if slide.image %}<img src="{{ slide.image }}" alt="{{ slide.title }}" style="max-width: 100%; height: auto;">{% endif %}
 </section>               
 {% endfor %}
