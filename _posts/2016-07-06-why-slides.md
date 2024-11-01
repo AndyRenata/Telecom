@@ -24,32 +24,32 @@ slides:
  - title: "Cable Coaxial"
    slide-data: "El cable coaxial proporciona un mejor blindaje contra interferencias y se usa ampliamente en redes de televisión y conexiones Ethernet. Existen categorías como RG-59 (para TV) y RG-6 (para aplicaciones de mayor calidad)."
    background: "#d35400"
-   image: https://github.com/AndyRenata/telecom/blob/master/images/Cable%20Coaxial.jpeg
+   image: "https://github.com/AndyRenata/telecom/blob/master/images/Cable%20Coaxial.jpegraw=true"
 
  - title: "Fibra Óptica"
    slide-data: "<p>La fibra óptica es ideal para largas distancias y velocidades altas, utilizando luz para la transmisión de datos. Hay dos tipos:</p><ul><li><strong>Multimodo</strong>: Para distancias cortas, como en redes de área local.</li><li><strong>Monomodo</strong>: Para distancias largas, excelente para alta capacidad de datos.</li></ul><p>Es resistente a interferencias electromagnéticas.</p>"
    background: "#8e44ad"
-   image: https://github.com/AndyRenata/telecom/blob/master/images/Fibra%20%C3%93ptica.jpeg
+   image: "https://github.com/AndyRenata/telecom/blob/master/images/Fibra%20%C3%93ptica.jpegraw=true"
 
  - title: "Medios No Guiados"
    slide-data: "Los medios no guiados son los que transmiten datos sin el uso de cables. Incluyen las ondas de radio, microondas y el infrarrojo. Son ideales para aplicaciones móviles y de corta distancia."
    background: "#27ae60"
-   image: https://github.com/AndyRenata/telecom/blob/master/images/Medios%20No%20Guiados.jpeg
+   image: "https://github.com/AndyRenata/telecom/blob/master/images/Medios%20No%20Guiados.jpegraw=true"
 
  - title: "Ondas de Radio"
    slide-data: "<p>Las ondas de radio permiten transmisiones a larga distancia y son omnidireccionales, ideales para radio AM/FM y transmisión de TV.</p><p>Ejemplos de uso: transmisión de radio, redes Wi-Fi y sistemas de comunicaciones satelitales.</p>"
    background: "#c0392b"
-   image: https://github.com/AndyRenata/telecom/blob/master/images/Ondas%20de%20Radio.jpeg
+   image: "https://github.com/AndyRenata/telecom/blob/master/images/Ondas%20de%20Radio.jpegraw=true"
 
  - title: "Microondas"
    slide-data: "Las microondas son unidireccionales y requieren una línea de vista clara entre las antenas transmisora y receptora. Usos comunes incluyen redes de satélites y telefonía móvil."
    background: "#16a085"
-   image: https://github.com/AndyRenata/telecom/blob/master/images/Diagrama%20de%20torre%20de%20microondas.jpeg
+   image: "https://github.com/AndyRenata/telecom/blob/master/images/Diagrama%20de%20torre%20de%20microondas.jpegraw=true"
 
  - title: "Infrarrojo"
    slide-data: "El infrarrojo es ideal para dispositivos de corto alcance como controles remotos. No atraviesa paredes, lo cual ayuda a reducir interferencias en entornos cerrados."
    background: "#7f8c8d"
-   note: "Imagen sugerida: Icono de señal infrarroja en el centro (tamaño 150x150px)."
+   image: "https://github.com/AndyRenata/telecom/blob/master/images/Icono%20de%20se%C3%B1al%20infrarroja.jpegraw=true"
 
  - title: "Aplicaciones y Rendimiento de los Medios"
    slide-data: "Cada tipo de medio tiene aplicaciones específicas en función de su rendimiento y capacidad. Por ejemplo:<ul><li><strong>Par Trenzado</strong>: Ideal para redes locales y telefonía.</li><li><strong>Fibra Óptica</strong>: Excelente para transmisión de datos a larga distancia y en redes de alta velocidad.</li></ul>"
