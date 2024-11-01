@@ -14,7 +14,7 @@ slides:
  - title: "Medios Guiados"
    slide-data: "Este tipo de medio utiliza cables físicos para transmitir datos. Incluye cables de par trenzado, coaxial y fibra óptica, los cuales se usan para diferentes distancias y tasas de transmisión."
    background: "#2ecc71"
-  image: "https://github.com/AndyRenata/telecom/blob/master/images/medios%20guiados.jpeg?raw=true"
+   image: "https://github.com/AndyRenata/telecom/blob/master/images/medios%20guiados.jpeg?raw=true"
 
  - title: "Cables de Par Trenzado"
    slide-data: "<p>El cable de par trenzado es común en redes locales (LAN). Existen dos tipos principales:</p><ul><li><strong>UTP (Unshielded Twisted Pair)</strong>: Sin blindaje, económico, pero menos protegido contra interferencias.</li><li><strong>STP (Shielded Twisted Pair)</strong>: Incluye blindaje, ofrece más protección pero es más costoso.</li></ul><p>Ambos tipos de cables vienen en diferentes categorías, como CAT5 y CAT6, que indican su capacidad de transmisión.</p>"
@@ -34,33 +34,23 @@ slides:
  - title: "Medios No Guiados"
    slide-data: "Los medios no guiados son los que transmiten datos sin el uso de cables. Incluyen las ondas de radio, microondas y el infrarrojo. Son ideales para aplicaciones móviles y de corta distancia."
    background: "#27ae60"
-   image: "https://github.com/AndyRenata/telecom/blob/master/images/Medios%20No%20Guiados.jpegraw=true"
 
  - title: "Ondas de Radio"
    slide-data: "<p>Las ondas de radio permiten transmisiones a larga distancia y son omnidireccionales, ideales para radio AM/FM y transmisión de TV.</p><p>Ejemplos de uso: transmisión de radio, redes Wi-Fi y sistemas de comunicaciones satelitales.</p>"
    background: "#c0392b"
- 
 
  - title: "Microondas"
    slide-data: "Las microondas son unidireccionales y requieren una línea de vista clara entre las antenas transmisora y receptora. Usos comunes incluyen redes de satélites y telefonía móvil."
    background: "#16a085"
-   image: "https://github.com/AndyRenata/telecom/blob/master/images/Diagrama%20de%20torre%20de%20microondas.jpegraw=true"
+   image: "https://github.com/AndyRenata/telecom/blob/master/images/Diagrama%20de%20torre%20de%20microondas.jpeg?raw=true"
 
  - title: "Infrarrojo"
    slide-data: "El infrarrojo es ideal para dispositivos de corto alcance como controles remotos. No atraviesa paredes, lo cual ayuda a reducir interferencias en entornos cerrados."
    background: "#7f8c8d"
-   image: "https://github.com/AndyRenata/telecom/blob/master/images/Icono%20de%20se%C3%B1al%20infrarroja.jpegraw=true"
+   image: "https://github.com/AndyRenata/telecom/blob/master/images/Icono%20de%20se%C3%B1al%20infrarroja.jpeg?raw=true"
 
  - title: "Aplicaciones y Rendimiento de los Medios"
    slide-data: "Cada tipo de medio tiene aplicaciones específicas en función de su rendimiento y capacidad. Por ejemplo:<ul><li><strong>Par Trenzado</strong>: Ideal para redes locales y telefonía.</li><li><strong>Fibra Óptica</strong>: Excelente para transmisión de datos a larga distancia y en redes de alta velocidad.</li></ul>"
    background: "#2980b9"
    note: "Imagen sugerida: Gráfico de rendimiento comparativo en la esquina inferior derecha (tamaño 250x150px)."
 ---
-
-{% for slide in page.slides %}                 
-<section data-background="{% if slide.image %}{{slide.image}}{% elsif slide.background %}{{slide.background}}{% else %}{{page.background}}{% endif %}" style="font-family: {{page.font}};">
-        <h1 style="font-size: 2em; text-align: left; margin-bottom: 0.5em;">{{slide.title}}</h1>
-        <div style="font-size: 1.2em; margin-top: 1em;">{{ slide.slide-data }}</div>
-        {% if slide.note %}<div style="font-size: 0.8em; color: #555; margin-top: 1em;"><em>Nota:</em> {{ slide.note }}</div>{% endif %}
-</section>               
-{% endfor %}
