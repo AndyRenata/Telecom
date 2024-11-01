@@ -1,30 +1,55 @@
-title: Fundamentos de telecomuniones
-description: Andy Nirvan Hernandez Guzman 
+title: "Fundamentos de Telecomunicaciones"
+description: "Andy Nirvan Hernández Guzmán"
 
-#baseurl: "/slides" # the subpath of your site, e.g. /blog
-url: "http://webjeda.com" # the base hostname & protocol for your site
-permalink: /:title/
+
+url: "http://webjeda.com" 
+permalink: /:title/ 
 
 
 compress_html:
-  clippings: [html,div, p, ul, td, h1, h2, h3, h4,link, meta, footer, nav, img, header, hr, br, head, style, li, ul, ol, time, main, script, title]
-  comments: ["<!-- ", " -->"]
-  endings: [all]
+  clippings: 
+    - html
+    - div
+    - p
+    - ul
+    - td
+    - h1
+    - h2
+    - h3
+    - h4
+    - link
+    - meta
+    - footer
+    - nav
+    - img
+    - header
+    - hr
+    - br
+    - head
+    - style
+    - li
+    - ol
+    - time
+    - main
+    - script
+    - title
+  comments: ["<!-- ", " -->"] 
+  endings: [all]              
   ignore:
-    envs: [local]
-  blanklines: false
-  profile: false
-  startings: []
-  
-  
+    envs: [local]             
+  blanklines: false         
+  profile: false              
+  startings: []               
+
+
 analytics: UA-83979019-1
 
-color-1: '#e74c3c'
-color-2: '##1abc9c'
-color-3: '##1abc9c'
-color-4: '##1abc9c'
-color-5: '##1abc9c'
-color-6: '##1abc9c'
-color-7: '##1abc9c'
-color-8: '##1abc9c'
 
+color-1: '#e74c3c'   
+color-2: '#1abc9c'   
+color-3: '#3498db'   
+color-4: '#f39c12'   
+color-5: '#9b59b6'   
+color-6: '#2ecc71'   
+color-7: '#e67e22'   
+color-8: '#34495e'   
