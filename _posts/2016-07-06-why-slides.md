@@ -10,8 +10,7 @@ slides:
    slide-data: "Los medios de transmisión son fundamentales en la comunicación de datos. Se dividen en dos tipos: <strong>medios guiados</strong> (con cables) e <strong>medios no guiados</strong> (inalámbricos), cada uno adecuado para aplicaciones específicas."
    background: "#2980b9"
 
-   image: ["C:\Users\andyf\OneDrive\Documentos\Prueba\OIP.jpeg"
-](https://github.com/AndyRenata/telecom/blob/master/images/OIP.jpeg?raw=true)
+   image: https://github.com/AndyRenata/telecom/blob/master/images/OIP.jpeg?raw=true
 
  - title: "Medios Guiados"
    slide-data: "Este tipo de medio utiliza cables físicos para transmitir datos. Incluye cables de par trenzado, coaxial y fibra óptica, los cuales se usan para diferentes distancias y tasas de transmisión."
