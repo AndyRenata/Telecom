@@ -14,7 +14,7 @@ slides:
  - title: "Medios Guiados"
    slide-data: "Este tipo de medio utiliza cables físicos para transmitir datos. Incluye cables de par trenzado, coaxial y fibra óptica, los cuales se usan para diferentes distancias y tasas de transmisión."
    background: "#2ecc71"
-  
+  image: "https://github.com/AndyRenata/telecom/blob/master/images/medios%20guiados.jpeg?raw=true"
 
  - title: "Cables de Par Trenzado"
    slide-data: "<p>El cable de par trenzado es común en redes locales (LAN). Existen dos tipos principales:</p><ul><li><strong>UTP (Unshielded Twisted Pair)</strong>: Sin blindaje, económico, pero menos protegido contra interferencias.</li><li><strong>STP (Shielded Twisted Pair)</strong>: Incluye blindaje, ofrece más protección pero es más costoso.</li></ul><p>Ambos tipos de cables vienen en diferentes categorías, como CAT5 y CAT6, que indican su capacidad de transmisión.</p>"
