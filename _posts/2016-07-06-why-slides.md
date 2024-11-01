@@ -19,24 +19,22 @@ slides:
  - title: "Cables de Par Trenzado"
    slide-data: "<p>El cable de par trenzado es común en redes locales (LAN). Existen dos tipos principales:</p><ul><li><strong>UTP (Unshielded Twisted Pair)</strong>: Sin blindaje, económico, pero menos protegido contra interferencias.</li><li><strong>STP (Shielded Twisted Pair)</strong>: Incluye blindaje, ofrece más protección pero es más costoso.</li></ul><p>Ambos tipos de cables vienen en diferentes categorías, como CAT5 y CAT6, que indican su capacidad de transmisión.</p>"
    background: "#f1c40f"
-   note: "Imagen sugerida: Cable UTP con STP al lado, centrada abajo (tamaño 300x150px)."
    image: "https://github.com/AndyRenata/telecom/blob/master/images/descargar.jpeg?raw=true"
    
  - title: "Cable Coaxial"
    slide-data: "El cable coaxial proporciona un mejor blindaje contra interferencias y se usa ampliamente en redes de televisión y conexiones Ethernet. Existen categorías como RG-59 (para TV) y RG-6 (para aplicaciones de mayor calidad)."
    background: "#d35400"
-   note: "Imagen sugerida: Diagrama de estructura de cable coaxial en la esquina superior derecha (tamaño 250x150px)."
-   note: https://github.com/AndyRenata/telecom/blob/master/images/Cable%20Coaxial.jpeg
+   image: https://github.com/AndyRenata/telecom/blob/master/images/Cable%20Coaxial.jpeg
 
  - title: "Fibra Óptica"
    slide-data: "<p>La fibra óptica es ideal para largas distancias y velocidades altas, utilizando luz para la transmisión de datos. Hay dos tipos:</p><ul><li><strong>Multimodo</strong>: Para distancias cortas, como en redes de área local.</li><li><strong>Monomodo</strong>: Para distancias largas, excelente para alta capacidad de datos.</li></ul><p>Es resistente a interferencias electromagnéticas.</p>"
    background: "#8e44ad"
-   note: "Imagen sugerida: Ilustración de fibra óptica centrada abajo (tamaño 300x200px)."
+   image: https://github.com/AndyRenata/telecom/blob/master/images/Fibra%20%C3%93ptica.jpeg
 
  - title: "Medios No Guiados"
    slide-data: "Los medios no guiados son los que transmiten datos sin el uso de cables. Incluyen las ondas de radio, microondas y el infrarrojo. Son ideales para aplicaciones móviles y de corta distancia."
    background: "#27ae60"
-   note: "Imagen sugerida: Antena de señal inalámbrica en la esquina superior derecha (tamaño 100x100px)."
+   image: https://github.com/AndyRenata/telecom/blob/master/images/Medios%20No%20Guiados.jpeg
 
  - title: "Ondas de Radio"
    slide-data: "<p>Las ondas de radio permiten transmisiones a larga distancia y son omnidireccionales, ideales para radio AM/FM y transmisión de TV.</p><p>Ejemplos de uso: transmisión de radio, redes Wi-Fi y sistemas de comunicaciones satelitales.</p>"
