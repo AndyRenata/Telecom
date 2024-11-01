@@ -39,12 +39,12 @@ slides:
  - title: "Ondas de Radio"
    slide-data: "<p>Las ondas de radio permiten transmisiones a larga distancia y son omnidireccionales, ideales para radio AM/FM y transmisión de TV.</p><p>Ejemplos de uso: transmisión de radio, redes Wi-Fi y sistemas de comunicaciones satelitales.</p>"
    background: "#c0392b"
-   note: "Imagen sugerida: Icono de onda de radio en el centro de la diapositiva (tamaño 200x200px)."
+   image: https://github.com/AndyRenata/telecom/blob/master/images/Ondas%20de%20Radio.jpeg
 
  - title: "Microondas"
    slide-data: "Las microondas son unidireccionales y requieren una línea de vista clara entre las antenas transmisora y receptora. Usos comunes incluyen redes de satélites y telefonía móvil."
    background: "#16a085"
-   note: "Imagen sugerida: Diagrama de torre de microondas a la derecha (tamaño 150x150px)."
+   image: https://github.com/AndyRenata/telecom/blob/master/images/Diagrama%20de%20torre%20de%20microondas.jpeg
 
  - title: "Infrarrojo"
    slide-data: "El infrarrojo es ideal para dispositivos de corto alcance como controles remotos. No atraviesa paredes, lo cual ayuda a reducir interferencias en entornos cerrados."
