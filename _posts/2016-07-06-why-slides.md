@@ -3,13 +3,13 @@ title: "Medios de Transmisión"
 layout: post
 permalink: /medios-de-transmision/
 background: "#0a5"
-font: "Arial, sans-serif" # Cambia la fuente para todas las diapositivas
+font: "Arial, sans-serif"
 
 slides:
  - title: "Introducción a los Medios de Transmisión"
    slide-data: "Los medios de transmisión son fundamentales en la comunicación de datos. Se dividen en dos tipos: <strong>medios guiados</strong> (con cables) e <strong>medios no guiados</strong> (inalámbricos), cada uno adecuado para aplicaciones específicas."
    background: "#2980b9"
-  
+   image: "https://github.com/AndyRenata/telecom/blob/master/images/OIP.jpeg?raw=true"
 
  - title: "Medios Guiados"
    slide-data: "Este tipo de medio utiliza cables físicos para transmitir datos. Incluye cables de par trenzado, coaxial y fibra óptica, los cuales se usan para diferentes distancias y tasas de transmisión."
@@ -39,7 +39,7 @@ slides:
  - title: "Ondas de Radio"
    slide-data: "<p>Las ondas de radio permiten transmisiones a larga distancia y son omnidireccionales, ideales para radio AM/FM y transmisión de TV.</p><p>Ejemplos de uso: transmisión de radio, redes Wi-Fi y sistemas de comunicaciones satelitales.</p>"
    background: "#c0392b"
-  image: "https://github.com/AndyRenata/telecom/blob/master/images/OIP.jpeg?raw=true"
+ 
 
  - title: "Microondas"
    slide-data: "Las microondas son unidireccionales y requieren una línea de vista clara entre las antenas transmisora y receptora. Usos comunes incluyen redes de satélites y telefonía móvil."
