@@ -9,7 +9,6 @@ slides:
  - title: "Introducción a los Medios de Transmisión"
    slide-data: "Los medios de transmisión son fundamentales en la comunicación de datos. Se dividen en dos tipos: <strong>medios guiados</strong> (con cables) e <strong>medios no guiados</strong> (inalámbricos), cada uno adecuado para aplicaciones específicas."
    background: "#2980b9"
-   note: "Imagen sugerida: Icono de red (tamaño 100x100px) en la esquina superior derecha."
    image: ["C:\Users\andyf\OneDrive\Documentos\Prueba\OIP.jpeg"
 ](https://github.com/AndyRenata/telecom/blob/master/images/OIP.jpeg?raw=true)
  - title: "Medios Guiados"
