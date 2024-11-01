@@ -15,7 +15,7 @@ slides:
    slide-data: "Este tipo de medio utiliza cables físicos para transmitir datos. Incluye cables de par trenzado, coaxial y fibra óptica, los cuales se usan para diferentes distancias y tasas de transmisión."
    background: "#2ecc71"
    note: "Imagen sugerida: Representación de un cable (tamaño 200x150px) en la esquina inferior izquierda."
-   <img width="178" height="238" data-src="https://github.com/AndyRenata/telecom/blob/master/images/descargar.jpeg?raw=true" alt="Down arrow">
+   <img width="178" height="238" "https://github.com/AndyRenata/telecom/blob/master/images/descargar.jpeg?raw=true" alt="Down arrow">
 
  - title: "Cables de Par Trenzado"
    slide-data: "<p>El cable de par trenzado es común en redes locales (LAN). Existen dos tipos principales:</p><ul><li><strong>UTP (Unshielded Twisted Pair)</strong>: Sin blindaje, económico, pero menos protegido contra interferencias.</li><li><strong>STP (Shielded Twisted Pair)</strong>: Incluye blindaje, ofrece más protección pero es más costoso.</li></ul><p>Ambos tipos de cables vienen en diferentes categorías, como CAT5 y CAT6, que indican su capacidad de transmisión.</p>"
